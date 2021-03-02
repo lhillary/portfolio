@@ -117,19 +117,8 @@
                         ],
                         category: 'UI',
                         text: [
-                            { para: '' }
-                        ]
-                    },{
-                        id: 'modal9',
-                        title: 'Your Wired Solutions',
-                        image: require('../assets/img/yws-intro.jpg'),
-                        images: [
-                            { src: require('../assets/img/yws-intro.jpg') },
-                            { src: require('../assets/img/yws-web.png') }
-                        ],
-                        category: 'UI',
-                        text: [
-                            { para: '' }
+                            { para: 'Adobe XD' },
+                            { para: 'This project was a bit of remote freelance web design that I was subcontracted to do for a friend of mine who runs a freelance development shop. The original client needed an entire web makeover so I worked with the developer to create some basic branding, work out the architecture of the site, and design the layout for desktop and mobile using Adobe XD.'}
                         ]
                     },{
                         id: 'modal10',
@@ -141,7 +130,8 @@
                         ],
                         category: 'GD',
                         text: [
-                            { para: '' }
+                            { para: 'Adobe Illustrator, Adobe InDesign' },
+                            { para: 'In addition to their web design and development, I was also contracted by Specialty Medical Management to design some basic branding and print collateral. I created standard stationery including letterhead, business cards, and envelopes, as well as branded folders and flyers. I worked with the company over the course of several months to develop a unified branding strategy across web and print that they felt represented their values of quality and excellence in healthcare delivery.' }
                         ]
                     },{
                         id: 'modal11',
@@ -153,7 +143,22 @@
                         ],
                         category: 'GD',
                         text: [
-                            { para: '' }
+                            { para: 'Adobe InDesign' },
+                            { para: 'This was an independent project commissioned by the then-president of Henry Ford College. The president was involved in teaching Continuous Process Improvement techniques to other educational institutions, and he needed a re-design and re-publish of the book. A small team was formed to accomplish this, and my role was to design the logo, book cover, and book layout.' },
+                            { para: 'The interior layout was a challenge because the content varied and changed throughout the project. I had to design the layout to accommodate large numbers of inforgraphics that were all unique in size and style.' } 
+                        ]
+                    },{
+                        id: 'modal9',
+                        title: 'Your Wired Solutions',
+                        image: require('../assets/img/yws-intro.jpg'),
+                        images: [
+                            { src: require('../assets/img/yws-intro.jpg') },
+                            { src: require('../assets/img/yws-web.png') }
+                        ],
+                        category: 'UI',
+                        text: [
+                            { para: 'Adobe XD' },
+                            { para: 'This project was a bit of remote freelance web design that I was subcontracted to do for a friend of mine who runs a freelance development shop. The original client needed an entire web makeover so I worked with the developer to create some basic branding, work out the architecture of the site, and design the layout for desktop and mobile using Adobe XD.' }
                         ]
                     },{
                         id: 'modal3',
@@ -164,7 +169,8 @@
                         ],
                         category: 'Dev',
                         text: [
-                            { para: '' }
+                            { para: 'Angular, Typescript' },
+                            { para: 'I created this Angular application during my time at Grand Circus Detroit. The app provides search capabilities on the front-end for data made available by The Movie DB API. It also allows users to mark movies they like as favorites and access later in a watchlist.' }
                         ]
                     },{
                         id: 'modal12',
@@ -176,7 +182,9 @@
                         ],
                         category: 'GD',
                         text: [
-                            { para: '' }
+                            { para: 'Adobe InDesign' },
+                            { para: 'The Strategy and Information office requested me to design a book for internal and external audiences that conveyed their strategic plan for Henry Ford College in a stylish and appealing way. I created a cover and layout design that was both unique and aligned with College branding.' },
+                            { para: 'I chose the horizontal layout to better accommodate the extensive data and list-style content in the book. I also chose to focus on our darker colors to convey the more serious, solid nature of the content.' }
                         ]
                     },{
                         id: 'modal4',
@@ -187,7 +195,9 @@
                         ],
                         category: 'Dev',
                         text: [
-                            { para: '' }
+                            { para: 'Angular, Typescript' },
+                            { para: 'I know every beginner developer out there has a to-do app of some sort in their reperatoire, but I included mine in this portfolio because I felt like it was a clean little app and have plans to develop it further. I built it using Angular and Typescript.' },
+                            { para: 'I would like to eventually hook this up to a simple back-end and keep it for my own personal use. It was originally a project completed during my time at Grand Circus Detroit.' }
                         ]
                     },{
                         id: 'modal13',
@@ -199,7 +209,9 @@
                         ],
                         category: 'GD',
                         text: [
-                            { para: '' }
+                            { para: 'Adobe Illustrator, Microsoft Office' },
+                            { para: 'Henry Ford College recently embarked on an initiative to make the College safer and more inclusive for LGBTQ+ students. As a member of the committee that oversees this initiative, I was responsible for designing collateral to support the marketing efforts of the committee. I designed the SAFE@HFC branding and will continue to create print and web collateral as the initiative progresses.' },
+                            { para: 'I designed a PowerPoint template for the committee to use when presenting to internal audiences. The iconography in the PowerPoint is original, and the layout patterns and design elements are meant to accommodate the widest possible variety of content.' }
                         ]
                     },{
                         id: 'modal5',
@@ -210,7 +222,9 @@
                         ],
                         category: 'Dev',
                         text: [
-                            { para: '' }
+                            { para: 'Javascript' },
+                            { para: 'The Budget Buddy was a javascript project I did during my time at Grand Circus Detroit. It is a simple budgeting app that allows the user to track expenses by category. It also has simple login functionality. I have included it in my portfolio because it was one of my first pure javascript projects and also one of the first times I had to work with a team and organize version control between three different people.' },
+                            { para: 'While the Budget Buddy may not be very sophisticated, it represents a milestone for me in development and I have plans to refactor it into a full application.' }
                         ]
                     },{
                         id: 'modal14',
@@ -281,7 +295,6 @@
             .lh-project-container {
                 transition: all .35s ease-in-out;
                 display: flex;
-                cursor: pointer;
 
                 .lh-project {
                     position: relative;
@@ -291,6 +304,7 @@
                     margin: 1em;
                     align-items: center;
                     border: 1px solid var(--light-button-hover-color);
+                    cursor: pointer;
 
                     &:hover .overlay {
                         opacity: 1;
