@@ -1,0 +1,78 @@
+@import './mixins.scss';
+
+.tippy-iOS {
+  cursor: pointer !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tippy-box[data-theme~='lb-popover'] {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+              0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+              0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.tippy-box[data-theme~='lb-tooltip'] {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 8px 20px;
+}
+
+.data-box {
+  max-height: 100%;
+  max-width: 100%;
+  outline: 0;
+  pointer-events: none;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: $z-index-dropdown;
+}
+
+.tippy-tooltip {
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &[data-animatefill] {
+      overflow: hidden;
+      background-color: transparent;
+  }
+
+  &[data-interactive] {
+      pointer-events: auto;
+
+      path {
+          pointer-events: auto;
+      }
+  }
+}
+
+.tippy-backdrop {
+  position: absolute;
+  border-radius: 50%;
+  width: calc(110% + 2rem);
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  transition: all cubic-bezier(0.46, 0.1, 0.52, 0.98);
+  backface-visibility: hidden;
+
+  &::after {
+      content: '';
+      float: left;
+      padding-top: 100%;
+  }
+}
+
+.tippy-backdrop + .tippy-content {
+  transition-property: opacity;
+  will-change: opacity;
+
+  &[data-state='visible'] {
+      opacity: 1;
+  }
+
+  &[data-state='hidden'] {
+      opacity: 0;
+  }
+}
