@@ -58,8 +58,9 @@
                         ],
                         category: 'Dev',
                         text: [
-                            { para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget scelerisque nisl, non laoreet metus. Maecenas sit amet dui eget arcu bibendum mattis. Mauris elementum imperdiet arcu, quis pulvinar ex lobortis sed. Curabitur vel posuere magna. Aliquam tincidunt vulputate pharetra. Aliquam erat volutpat.' },
-                            { para: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla scelerisque nisl eu purus lacinia pretium. Praesent vel nibh sed ante porttitor semper ac vel mauris. Phasellus fringilla id sem a volutpat.' }
+                            { para: 'Vue.js, Node.js, PostgreSQL, Express, auth0' },
+                            { para: 'I am currently in the process of developing this marketing site for Sciometrix using Vue.js for the front-end and a simple Express/Node.js API for the back-end. I have also integrated some RBAC authorization using auth0 so that users can sign up to gain access to the company whitepaper, and certain Admin-level users (our sales staff) have access to a portal that allows them to see all leads and update their contact-status as they go.' },
+                            { para: 'The contacts stored in the database will also eventually be integrated with the company Salesforce CRM (ScioSales) using Heroku Connect, but I am not quite there yet in the building process. This item will be updated as I progress. Oh, I also designed the site.' }
                         ]
                     },{
                         id: 'modal2',
@@ -71,7 +72,9 @@
                         ],
                         category: 'Dev',
                         text: [
-                            { para: '' }
+                            { para: 'PHP, JS, Processwire, Docker' },
+                            { para: 'I designed and developed this website as a freelance job for Specialty Medical Management. The company needed a quick marketing site that they could update on the fly themselves, so I decided to go with a lightweight CMS (Processwire) and sprinkled in some ES6 for interactivity.' },
+                            { para: 'One of the challenges of this project was setting up a local development environment and deployment strategy (because testing between two different phpmyadmin installations on local and production is a nightmare.) I ended up setting up docker images for the database, Apache, PHP, and the Processwire site and deploying to the server using DockerHub.' }
                         ]
                     },{
                         id: 'modal6',
@@ -83,7 +86,11 @@
                         ],
                         category: 'UI',
                         text: [
-                            { para: '' }
+                            { para: 'Sketch, InVision' },
+                            { para: 'LoveBook needed a new customer relations management system that could scale. The company’s rapidly increasing sales was overwhelming the customer service team and they needed software designed that would make their workflow more efficient and help provide better, quicker service to customers.' },
+                            { para: 'The existing tools that the customer service team used to manage customer contacts were held in separate small applications and did not do everything needed. I started the design process by making an existing feature inventory and then interviewing the customer service team to determine which additional features were needed. I also shadowed them to see exactly what their process looked like.' },
+                            { para: 'After determining the list of features and organizing them according to priority I started work on the layout. The primary challenge was finding a way to pipe all of the necessary customer and order information into a small area without sacrificing the user’s ability to both quickly glance information and access tools.' },
+                            { para: 'This project was incidentally also one of the first that I worked on as a front-end deveoper using jQuery and PHP.' }
                         ]
                     },{
                         id: 'modal7',
@@ -95,7 +102,10 @@
                         ],
                         category: 'UI',
                         text: [
-                            { para: '' }
+                            { para: 'Adobe XD, ProtoPie' },
+                            { para: 'LoveBook’s mission is to spread love through user-created personalized gift books. Over the course of 2018 the company rapidly changed and expanded the set of tools and features available to users, including the character and book building process. After the changes, and after some monitoring of user points-of-pain, it became clear that a redesign was necessary to make the new brand and product more clear.' },
+                            { para: 'Our data showed that users encountered confusion about both the nature of the product (is it a book?) and what the process looked like once you clicked “Get Started.” To mitigate this I decided to simplify the interface and highlight the imagery. Clearer menus and calls to action. I also decided to more clearly explicate and highlight the product-creation steps instead of leaving it buried on another internal page or inside a busy image.' },
+                            { para: 'Users can convert from any point during scrolling. Sectioning is also clearer so users aren’t as overwhelmed by long or dense blocks of information.' }
                         ]
                     },{
                         id: 'modal8',
@@ -147,7 +157,7 @@
                         ]
                     },{
                         id: 'modal3',
-                        title: 'Move API App',
+                        title: 'Movie API App',
                         image: require('../assets/img/movie.jpg'),
                         images: [
                             { src: require('../assets/img/movie.jpg') }
@@ -212,7 +222,9 @@
                         ],
                         category: 'Fun',
                         text: [
-                            { para: '' }
+                            { para: 'Adobe Illustrator, Adobe Photoshop, Construct 2' },
+                            { para: 'I participated in the design and development of UMI many years ago for fun, but I still like to include a bit about it in my portfolio because...well, it really was pretty cool. UMI is an Android mobile game that I designed and developed with my brother circa 2014. I designed and created all of the assets using Illustrator and Photoshop, and helped with the game design and development using the Construct 2 engine. The second image on this page is a neat little compilation of the main character action animations.' },
+                            { para: 'This was also one of my first official forays into web development as an amateur; I designed and built a couple of static landing pages to help our efforts to promote the game on social media (using plain old HTML, CSS, and JS, and a little bit of WordPress theming.) I think we ultimately made about $900 total on UMI, but the experience was worth it!' }
                         ]
                     }
                 ]

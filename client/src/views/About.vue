@@ -18,9 +18,9 @@
         smallcaps: 'A Bit About Me And My Experience',
         paragraphs: [
           {
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue, sem quis molestie maximus, sem odio varius nisl, vitae aliquam dolor orci quis orci. Curabitur malesuada, lacus eu placerat suscipit, ipsum felis faucibus est, pellentesque feugiat risus odio sit amet ex. Morbi mollis ipsum libero, eget ullamcorper mauris elementum malesuada. Vivamus ultrices, ex quis dictum finibus, tellus augue pharetra dolor, sit amet pretium tellus lectus a tellus.'
+            text: 'Front-End web developer previously in web UI/UX design. Attended Detroit Grand Circus bootcamp in 2018 to bridge my design and development skills and have been working in web development professionally since. Focused on combining my development knowledge with my passion for design to deliver beautiful and well-designed web experiences.'
           },{
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue, sem quis molestie maximus, sem odio varius nisl, vitae aliquam dolor orci quis orci. Curabitur malesuada, lacus eu placerat suscipit, ipsum felis faucibus est, pellentesque feugiat risus odio sit amet ex.'
+            text: 'One of the things I enjoy most about web development is the limitless opportunities for learning; being able to tool around with something new and shiny (so frequently) is something that I consider to be a professional privilege. I am currently working on learning more about the AWS environment, and also finally diving into React after getting a decent grasp on Vue.js.'
           }
         ] 
       }
